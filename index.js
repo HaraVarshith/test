@@ -7,6 +7,7 @@ bot.on("message", message => {
     {
       if (message.content === 'what is my avatar?') {
          message.reply(message.author.displayAvatarURL());
+         console.log(imonline);
       }};
       bot.login(process.env.token)
     });

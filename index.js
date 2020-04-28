@@ -11,4 +11,5 @@ bot.on("message", message => {
       }};
       bot.login(process.env.token)
     });
-//closed
+//hahahaha
+//they  r srupid
